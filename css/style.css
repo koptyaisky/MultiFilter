@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Proxima';
+    src: url('../fonts/ProximaNova-Regular.ttf') format('truetype');
+    src: url('../fonts/ProximaNova-Regular.eot?') format('eot');
+    src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Proxima';
+    src: url('../fonts/ProximaNova-Semibold.ttf') format('truetype');
+    src: url('../fonts/ProximaNova-Semibold.eot?') format('eot');
+    src: url('../fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Proxima';
+    src: url('../fonts/ProximaNova-Bold.ttf') format('truetype');
+    src: url('../fonts/ProximaNova-Bold.eot?') format('eot');
+    src: url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: 700;
+}
+
+body {
+    background: #E3F3FF;
+    font-family: 'Proxima';
+}
+.wrap {
+    max-width: 784px;
+    margin: 50px auto 0;
+    padding: 40px 20px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 1.2;
+    color: #094067;
+}
+.filter-control {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.filter-btn {
+    background: #FFFFFF;
+    box-shadow: 0 0 8px rgba(67, 110, 141, 0.37);
+    border-radius: 6px;
+    font-family: 'Proxima';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #3DA9FC;
+    padding: 15px 26px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin: 0 8px;
+    border: 1px solid rgba(255,255,255,0);
+}
+.filter-btn:hover {
+    box-shadow: none;
+}
+.filter-btn.active {
+    background: #3DA9FC;
+    box-shadow: none;
+    color: #FFFFFF;
+}
+.filter-content {
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin-top: 30px;
+    padding: 30px 20px;
+}
+.grid {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.grid-item {
+    width: 64px;
+    height: 64px;
+    margin: 0 8px;
+    border-radius: 6px;
+}
+.filter1 {
+    background: #EF4565;
+}
+.filter2 {
+    background: #90B4CE;
+}
+.filter3 {
+    background: #87D7A7;
+}
+.filter4 {
+    background: #FFE299;
+}
+.clear-all {
+    font-size: 20px;
+    line-height: 24px;
+    color: #3DA9FC;
+    background: rgba(255,255,255,0);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.clear-all:hover {
+    color: #094067;
+}
